@@ -13,3 +13,14 @@ let another_p_tag = document.getElementsByClassName(`new-p-tag`);
 for(let counter = 0; counter < another_p_tag.length; counter++) {
     another_p_tag[counter][`innerText`] = `grabbed by my class, diferently`
 }
+
+let title = document.querySelector(`#title`);
+title[`innerHTML`] = `hahahahahahahahahahahahha`;
+title[`outerHTML`] = `<h2>Right before</h2>` + title[`outerHTML`] + `<h2>after</h2>`;
+
+let replace_me = document.querySelectorAll(`.replace-me`);
+
+let change_css = document.getElementById(`css-with-js`);
+change_css[`style`][`backgroundColor`] = `green`;
+change_css[`style`][`fontSize`] = `1.5rem`;
+change_css[`style`][`marginTop`] = `50%`;
