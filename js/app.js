@@ -24,3 +24,6 @@ let change_css = document.getElementById(`css-with-js`);
 change_css[`style`][`backgroundColor`] = `green`;
 change_css[`style`][`fontSize`] = `1.5rem`;
 change_css[`style`][`marginTop`] = `50%`;
+
+let img = document.getElementById(`change-id`);
+img.setAttribute(`src`, `https://images.unsplash.com/photo-1657427349727-1ed381469cdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80`);
